@@ -1,190 +1,261 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutzungsbedingungen - PhotoHunt</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1, h2 {
-            margin-top: 30px;
-        }
-        ul {
-            margin-left: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nutzungsbedingungen – PictureHunt</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f7f7f8;
+      color: #1a1a1a;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header .app-name {
+      font-size: 13px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #a0aec0;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: clamp(24px, 5vw, 36px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    header .updated {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #a0aec0;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 20px;
+      border: 1px solid #e8e8e8;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #f0f0f0;
+    }
+
+    p { margin-bottom: 12px; color: #333; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 10px 0 12px 20px;
+      color: #333;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    a { color: #4f6ef7; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .highlight {
+      background: #f0f4ff;
+      border-left: 3px solid #4f6ef7;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 14px 0;
+      font-size: 15px;
+      color: #2d3a6b;
+    }
+
+    .warning {
+      background: #fff8f0;
+      border-left: 3px solid #f6a623;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 14px 0;
+      font-size: 15px;
+      color: #7a4a00;
+    }
+
+    .contact-box {
+      background: #1a1a2e;
+      color: #fff;
+      border-radius: 10px;
+      padding: 24px 28px;
+    }
+
+    .contact-box p { color: #cbd5e0; }
+    .contact-box a { color: #90cdf4; }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #999;
+      padding-bottom: 32px;
+    }
+  </style>
 </head>
 <body>
 
-<h1>Nutzungsbedingungen</h1>
-<h2>PhotoHunt App</h2>
-<p><strong>Stand:</strong> 17. März 2026</p>
+<header>
+  <div class="app-name">PictureHunt App</div>
+  <h1>Nutzungsbedingungen</h1>
+  <div class="updated">Zuletzt aktualisiert: Juni 2026</div>
+</header>
 
-<h2>1. Geltungsbereich</h2>
-<p>
-Diese Nutzungsbedingungen regeln die Nutzung der kostenlosen mobilen Anwendung "PhotoHunt" (nachfolgend "App"),
-die im Google Play Store (Android) und im Apple App Store (iOS) verfügbar ist.
-Mit dem Herunterladen, Installieren oder Verwenden der App erklärst du dich mit diesen Nutzungsbedingungen einverstanden.
-</p>
-<p>
-Wenn du mit diesen Bedingungen nicht einverstanden bist, lade die App nicht herunter und nutze sie nicht.
-</p>
+<main>
 
-<h2>2. Beschreibung der App</h2>
-<p>
-PhotoHunt ist ein Fotospiel für Gruppen. Spieler treten in Teams an, fotografieren vorgegebene Motive
-und bewerten anschließend die Bilder anderer Teams.
-</p>
-<p>Die App nutzt folgende externe Dienste:</p>
-<ul>
-    <li>Google Firebase (Authentifizierung, Datenbank, Speicher)</li>
-    <li>Google Play Store / Apple App Store (Vertrieb)</li>
-</ul>
+  <section>
+    <h2>1. Geltungsbereich</h2>
+    <p>Diese Nutzungsbedingungen gelten für die Nutzung der App <strong>PictureHunt</strong> (nachfolgend „App"), die von <strong>[Stefan Feifarek]</strong>, [Birkenweg 12, Erlangen], Deutschland (nachfolgend „Anbieter") bereitgestellt wird.</p>
+    <p>Mit der Registrierung oder Nutzung der App stimmst du diesen Nutzungsbedingungen zu. Wenn du nicht einverstanden bist, darfst du die App nicht verwenden.</p>
+  </section>
 
-<h2>3. Nutzungsvoraussetzungen</h2>
-<p>Die Nutzung der App setzt voraus:</p>
-<ul>
-    <li>Ein Mindestalter von 13 Jahren (bzw. das gesetzlich vorgeschriebene Mindestalter in deinem Land)</li>
-    <li>Ein kompatibles Smartphone (Android oder iOS)</li>
-    <li>Eine aktive Internetverbindung</li>
-    <li>Die Erlaubnis, auf Kamera und ggf. Fotomediathek des Geräts zuzugreifen</li>
-</ul>
+  <section>
+    <h2>2. Mindestalter</h2>
+    <div class="warning">
+      Die Nutzung von PhotoHunt ist erst ab <strong>13 Jahren</strong> gestattet. Personen unter 13 Jahren dürfen die App nicht verwenden. Mit der Registrierung bestätigst du, dass du mindestens 13 Jahre alt bist.
+    </div>
+    <p>Wenn wir feststellen, dass ein Konto von einer Person unter 13 Jahren erstellt wurde, behalten wir uns das Recht vor, dieses Konto unverzüglich zu löschen.</p>
+  </section>
 
-<h2>4. Kostenlose Nutzung</h2>
-<p>
-Die App ist kostenlos erhältlich und kostenlos nutzbar. Es fallen keine Kaufpreise oder Abonnementgebühren an.
-Beachte jedoch, dass durch die Nutzung der App Datenvolumen verbraucht wird,
-wofür dein Mobilfunkanbieter Kosten erheben kann.
-</p>
+  <section>
+    <h2>3. Registrierung und Konto</h2>
+    <p>Für die Nutzung von PhotoHunt ist eine Anmeldung über ein Google-Konto erforderlich. Du bist verantwortlich für:</p>
+    <ul>
+      <li>Die Sicherheit deines Google-Kontos</li>
+      <li>Alle Aktivitäten, die über dein Konto stattfinden</li>
+      <li>Die Richtigkeit deiner Angaben bei der Registrierung</li>
+    </ul>
+    <p>Du darfst kein Konto für eine andere Person erstellen oder ein fremdes Konto nutzen.</p>
+  </section>
 
-<h2>5. Nutzerkonto und Anmeldung</h2>
-<p>
-PhotoHunt verwendet eine anonyme Authentifizierung über Firebase.
-Beim ersten Start wird automatisch ein anonymes Konto erstellt.
-Du vergibst lediglich einen Anzeigenamen innerhalb der App.
-Es ist keine E-Mail-Adresse oder Passwort erforderlich.
-</p>
-<p>Du bist verantwortlich dafür, keinen Anzeigenamen zu verwenden, der:</p>
-<ul>
-    <li>Beleidigende, rassistische oder diskriminierende Inhalte enthält</li>
-    <li>Andere Personen oder Marken imitiert</li>
-    <li>Gegen geltendes Recht verstößt</li>
-</ul>
+  <section>
+    <h2>4. Nutzung der App</h2>
+    <p>PhotoHunt darf ausschließlich für private, nicht-kommerzielle Zwecke genutzt werden. Bei der Nutzung der App ist Folgendes verboten:</p>
+    <ul>
+      <li>Fotos von Personen ohne deren Einwilligung aufzunehmen oder zu teilen</li>
+      <li>Anstößige, beleidigende, gewaltverherrlichende oder rechtswidrige Inhalte zu übertragen</li>
+      <li>Die App zu manipulieren, zu hacken oder zu reverse engineeren</li>
+      <li>Automatisierte Skripte oder Bots zu verwenden</li>
+      <li>Andere Nutzer zu belästigen oder zu schädigen</li>
+      <li>Urheberrechtlich geschützte Inhalte ohne Berechtigung zu verwenden</li>
+      <li>Falsche Identitäten zu verwenden</li>
+    </ul>
+  </section>
 
-<h2>6. Hochgeladene Inhalte und Fotos</h2>
+  <section>
+    <h2>5. Fotos und Inhalte</h2>
+    <p>Im Spiel aufgenommene Fotos werden ausschließlich für die jeweilige Spielrunde innerhalb der Lobby verwendet. Du behältst alle Rechte an deinen Fotos.</p>
+    <p>Durch die Nutzung der App räumst du dem Anbieter jedoch das Recht ein, die Fotos temporär zu speichern und an Mitspieler der gleichen Lobby zu übertragen, soweit dies für den Spielbetrieb erforderlich ist.</p>
+    <div class="highlight">
+      Du bist selbst dafür verantwortlich, dass du die Rechte an den von dir aufgenommenen Fotos besitzt und keine Persönlichkeitsrechte Dritter verletzt.
+    </div>
+  </section>
 
-<h3>6.1 Deine Verantwortung</h3>
-<p>
-Du bist allein verantwortlich für die Fotos, die du während eines Spiels aufnimmst und in der App hochlädst.
-Du sicherst zu, dass die von dir hochgeladenen Inhalte:
-</p>
-<ul>
-    <li>Keine Personen ohne deren Einwilligung in erkennbarer Weise abbilden</li>
-    <li>Keine urheberrechtlich geschützten Werke ohne Erlaubnis zeigen</li>
-    <li>Keine illegalen, pornografischen, gewaltverherrlichenden oder beleidigenden Inhalte enthalten</li>
-    <li>Keine personenbezogenen Daten Dritter ohne deren Einwilligung offenbaren</li>
-</ul>
+  <section>
+    <h2>6. Premium-Abo</h2>
+    <p>PhotoHunt bietet ein optionales Premium-Abonnement (<strong>PhotoHunt Premium</strong>) an. Folgendes gilt für das Abo:</p>
+    <ul>
+      <li><strong>Preis:</strong> 3 € pro Monat (nicht inkl. gesetzlicher MwSt.)</li>
+      <li><strong>Abrechnung:</strong> Monatlich über Google Play Billing</li>
+      <li><strong>Verlängerung:</strong> Das Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ende der Laufzeit gekündigt wird</li>
+      <li><strong>Kündigung:</strong> Jederzeit über die Google Play Store Einstellungen möglich</li>
+      <li><strong>Widerrufsrecht:</strong> EU-Verbraucher haben ein 14-tägiges Widerrufsrecht ab Kaufdatum, sofern die digitalen Inhalte noch nicht vollständig genutzt wurden</li>
+    </ul>
+    <p>Die Zahlungsabwicklung erfolgt ausschließlich über Google Play. Wir haben keinen Zugriff auf deine Zahlungsdaten.</p>
+  </section>
 
-<h3>6.2 Automatische Löschung</h3>
-<p>
-Alle im Rahmen eines Spiels hochgeladenen Fotos werden nach Abschluss der Voting-Phase automatisch
-und dauerhaft von den Servern gelöscht. Eine längerfristige Speicherung findet nicht statt.
-</p>
+  <section>
+    <h2>7. Werbung</h2>
+    <p>Die kostenlose Version von PhotoHunt wird durch Werbung finanziert. Werbeanzeigen werden von Google AdMob bereitgestellt. Premium-Nutzer sehen keine Werbung.</p>
+    <p>Wir haben keinen Einfluss auf den konkreten Inhalt der angezeigten Werbeanzeigen.</p>
+  </section>
 
-<h3>6.3 Sichtbarkeit</h3>
-<p>
-Während des Spiels sind deine Fotos für alle teilnehmenden Spieler der aktuellen Lobbysitzung sichtbar.
-Nach Spielende werden sie gelöscht und sind nicht mehr abrufbar.
-</p>
+  <section>
+    <h2>8. Verfügbarkeit und Änderungen</h2>
+    <p>Wir bemühen uns um eine möglichst unterbrechungsfreie Verfügbarkeit der App, übernehmen jedoch keine Garantie für eine ständige Erreichbarkeit. Wartungsarbeiten, technische Störungen oder höhere Gewalt können zu vorübergehenden Ausfällen führen.</p>
+    <p>Wir behalten uns das Recht vor:</p>
+    <ul>
+      <li>Die App jederzeit weiterzuentwickeln oder Funktionen zu ändern</li>
+      <li>Diese Nutzungsbedingungen anzupassen – du wirst bei wesentlichen Änderungen in der App informiert</li>
+      <li>Den Dienst einzustellen, mit einer angemessenen Vorankündigungsfrist</li>
+    </ul>
+  </section>
 
-<h2>7. Datenschutz</h2>
-<p>
-Die Verarbeitung personenbezogener Daten erfolgt gemäß unserer Datenschutzerklärung.
-Die App erhebt minimale Daten:
-</p>
-<ul>
-    <li>Einen selbst gewählten Anzeigenamen</li>
-    <li>Einen selbst gewählten Team-Namen</li>
-    <li>Temporär gespeicherte Fotos während eines aktiven Spiels</li>
-</ul>
-<p>
-Es wird kein Nutzerprofil erstellt. Es findet kein Tracking oder Profiling statt.
-Für Informationen zur Datenverarbeitung durch Firebase/Google verweisen wir auf die Datenschutzbestimmungen von Google LLC.
-</p>
+  <section>
+    <h2>9. Sperrung und Kündigung</h2>
+    <p>Wir behalten uns das Recht vor, Konten bei Verstößen gegen diese Nutzungsbedingungen vorübergehend zu sperren oder dauerhaft zu löschen – insbesondere bei:</p>
+    <ul>
+      <li>Übertragung rechtswidriger oder anstößiger Inhalte</li>
+      <li>Manipulation des Spiels oder Betrug</li>
+      <li>Belästigung anderer Nutzer</li>
+      <li>Nutzung durch Personen unter 13 Jahren</li>
+    </ul>
+    <p>Du kannst dein Konto jederzeit selbst in der App unter <strong>Einstellungen → Konto löschen</strong> löschen.</p>
+  </section>
 
-<h2>8. Verbotene Nutzung</h2>
-<p>Es ist untersagt, die App zu nutzen, um:</p>
-<ul>
-    <li>Andere Nutzer zu belästigen, zu bedrohen oder zu diskriminieren</li>
-    <li>Rechtswidrige Handlungen zu begehen oder zu fördern</li>
-    <li>Die Funktionalität der App oder der zugrunde liegenden Infrastruktur zu beeinträchtigen</li>
-    <li>Automatisierte Zugriffe oder Bots einzusetzen</li>
-    <li>Die App zu dekompilieren, zu reverse-engineeren oder abzuleiten</li>
-</ul>
+  <section>
+    <h2>10. Haftungsausschluss</h2>
+    <p>Die App wird „wie sie ist" bereitgestellt. Der Anbieter haftet nicht für:</p>
+    <ul>
+      <li>Datenverluste durch technische Störungen</li>
+      <li>Schäden durch missbräuchliche Nutzung durch Dritte</li>
+      <li>Inhalte, die Nutzer innerhalb der App übertragen</li>
+      <li>Ausfälle von Drittdiensten (Google Firebase, AdMob, Google Play)</li>
+    </ul>
+    <p>Die Haftung für Vorsatz und grobe Fahrlässigkeit bleibt unberührt. Eine Haftungsbeschränkung gegenüber Verbrauchern gilt nur im gesetzlich zulässigen Rahmen.</p>
+  </section>
 
-<h2>9. Haftungsausschluss</h2>
-<p>
-Die App wird "wie sie ist" (as-is) ohne jegliche ausdrückliche oder stillschweigende Gewährleistung bereitgestellt.
-Wir übernehmen keine Haftung für:
-</p>
-<ul>
-    <li>Unterbrechungen der App-Verfügbarkeit</li>
-    <li>Verlust von Spieldaten oder Fotos</li>
-    <li>Schäden, die durch die Nutzung der App entstehen</li>
-    <li>Inhalte, die von anderen Nutzern hochgeladen werden</li>
-</ul>
-<p>
-Soweit gesetzlich zulässig, ist die Haftung auf Fälle grober Fahrlässigkeit und Vorsatz beschränkt.
-</p>
+  <section>
+    <h2>11. Anwendbares Recht</h2>
+    <p>Es gilt das Recht der Bundesrepublik Deutschland. Für Verbraucher mit Wohnsitz in einem anderen EU-Staat gelten zusätzlich die zwingenden Verbraucherschutzvorschriften des jeweiligen Landes.</p>
+    <p>Gerichtsstand ist, soweit gesetzlich zulässig, der Sitz des Anbieters.</p>
+  </section>
 
-<h2>10. Änderungen der App und der Nutzungsbedingungen</h2>
-<p>
-Wir behalten uns das Recht vor, die App jederzeit zu ändern, zu aktualisieren oder einzustellen.
-Änderungen dieser Nutzungsbedingungen werden durch Aktualisierung des Datums am Anfang dieses Dokuments kenntlich gemacht.
-Die fortgesetzte Nutzung der App nach Änderungen gilt als Zustimmung zu den geänderten Bedingungen.
-</p>
+  <section>
+    <h2>12. Streitbeilegung</h2>
+    <p>Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank">ec.europa.eu/consumers/odr</a></p>
+    <p>Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+  </section>
 
-<h2>11. Geistiges Eigentum</h2>
-<p>
-Alle Rechte an der App, einschließlich Design, Code, Markenname "PhotoHunt" und Grafiken,
-liegen beim Entwickler. Die App wird dir lediglich zur persönlichen, nicht-kommerziellen Nutzung lizenziert.
-</p>
+  <section>
+    <div class="contact-box">
+      <h2 style="color:#fff; border-bottom-color:#2d3a6b;">Kontakt</h2>
+      <p>Bei Fragen zu diesen Nutzungsbedingungen erreichst du uns unter:</p>
+      <p style="margin-top:10px;">
+        <strong style="color:#fff;">[Dein Name]</strong><br>
+        <a href="mailto:[feifarekstefan9@gmail.com]">[feifarekstefan9@gmail.com]</a>
+      </p>
+    </div>
+  </section>
 
-<h2>12. Drittanbieter-Dienste</h2>
-<p>
-Die App nutzt Dienste von Drittanbietern, insbesondere Google Firebase.
-Für deren Nutzungsbedingungen und Datenschutzrichtlinien sind die jeweiligen Anbieter verantwortlich:
-</p>
-<ul>
-    <li><a href="https://firebase.google.com/terms" target="_blank">Google Firebase</a></li>
-    <li><a href="https://policies.google.com/privacy" target="_blank">Google Datenschutz</a></li>
-</ul>
+</main>
 
-<h2>13. Anwendbares Recht</h2>
-<p>
-Diese Nutzungsbedingungen unterliegen dem Recht der Bundesrepublik Deutschland.
-Gerichtsstand ist der Sitz des Entwicklers, soweit gesetzlich zulässig.
-</p>
-
-<h2>14. Kontakt</h2>
-<p>
-Bei Fragen zu diesen Nutzungsbedingungen oder zur App kannst du uns kontaktieren:
-</p>
-<p>
-Stefan Feifarek<br>
-zockerdud1@gmail.com<br>
-glockenhofstraße 39
-</p>
-
-<hr>
-
-<p><strong>PhotoHunt • Nutzungsbedingungen • Stand: 17. März 2026</strong></p>
+<footer>
+  <p>© 2026 PicutreHunt · Alle Rechte vorbehalten</p>
+</footer>
 
 </body>
 </html>
